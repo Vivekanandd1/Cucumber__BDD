@@ -1,0 +1,105 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-25T17:03:29.706Z",
+        "line": 5,
+        "name": "user is able to open browser, navigate to url and search for product",
+        "description": "",
+        "id": "ajio-webapp-testcase;user-is-able-to-open-browser--navigate-to-url-and-search-for-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user opened browser",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "url navigate to web url",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user searched for product \"hoodies\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "output displayed for product",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user closed the browser",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui"
+          },
+          {
+            "name": "@healthtest"
+          },
+          {
+            "name": "@Ajio"
+          }
+        ]
+      }
+    ],
+    "name": "Ajio WebApp Testcase",
+    "description": "",
+    "id": "ajio-webapp-testcase",
+    "keyword": "Feature",
+    "uri": "classpath:features1/WebApp.feature",
+    "tags": [
+      {
+        "name": "@ui",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      },
+      {
+        "name": "@healthtest",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 5
+        }
+      },
+      {
+        "name": "@Ajio",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 17
+        }
+      }
+    ]
+  }
+]

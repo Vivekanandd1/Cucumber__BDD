@@ -1,0 +1,126 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-25T17:09:02.027Z",
+        "line": 5,
+        "name": "user is able to open browser, navigate to url and search for product",
+        "description": "",
+        "id": "ajio-webapp-testcase;user-is-able-to-open-browser--navigate-to-url-and-search-for-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6589049800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user opened browser",
+            "match": {
+              "location": "AjioWebAppCheck.stepdefs1.stepdefs1.user_opened_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11660441900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "url navigate to web url",
+            "match": {
+              "location": "AjioWebAppCheck.stepdefs1.stepdefs1.url_navigate_to_web_url()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1224710700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user searched for product \"hoodies\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hoodies\"",
+                  "offset": 26
+                }
+              ],
+              "location": "AjioWebAppCheck.stepdefs1.stepdefs1.user_searched_for_product(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4179612200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "output displayed for product",
+            "match": {
+              "location": "AjioWebAppCheck.stepdefs1.stepdefs1.output_displayed_for_product()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3603406700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user closed the browser",
+            "match": {
+              "location": "AjioWebAppCheck.stepdefs1.stepdefs1.user_closed_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui"
+          },
+          {
+            "name": "@healthtest"
+          },
+          {
+            "name": "@Ajio"
+          }
+        ]
+      }
+    ],
+    "name": "Ajio WebApp Testcase",
+    "description": "",
+    "id": "ajio-webapp-testcase",
+    "keyword": "Feature",
+    "uri": "classpath:features1/WebApp.feature",
+    "tags": [
+      {
+        "name": "@ui",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      },
+      {
+        "name": "@healthtest",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 5
+        }
+      },
+      {
+        "name": "@Ajio",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 17
+        }
+      }
+    ]
+  }
+]
