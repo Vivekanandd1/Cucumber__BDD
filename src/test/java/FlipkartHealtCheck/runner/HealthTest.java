@@ -11,9 +11,11 @@ import io.cucumber.junit.CucumberOptions;
 		tags = " ",
 		plugin = {
 				"pretty",
-				"html:target/html/htmlreport1.html",
+				"html:target/html/htmlreport7.html",
 				"json:target/json/file.json",
 		},
+		monochrome = true,
+		publish = true,
 		dryRun = false
 		)
 

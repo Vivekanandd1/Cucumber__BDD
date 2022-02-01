@@ -1,0 +1,17 @@
+2022-Jan-31 08:44:54 AM [main] INFO  FlipkartHealtCheck.stepdefs.stepdefs - browser invoked
+2022-Jan-31 08:45:05 AM [main] INFO  FlipkartHealtCheck.pageobj.CmnPageObjects - Page title matched: Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra
+2022-Jan-31 08:45:05 AM [main] INFO  FlipkartHealtCheck.pageobj.CmnPageObjects - Value entered in search box: Sweatshirts
+2022-Jan-31 08:45:09 AM [main] INFO  FlipkartHealtCheck.pageobj.CmnPageObjects - Clicked on Search Button
+2022-Jan-31 08:45:09 AM [main] INFO  FlipkartHealtCheck.pageobj.SearchPageObjects - Search Page is displayed because refinement category is displayed
+2022-Jan-31 08:45:10 AM [main] INFO  FlipkartHealtCheck.stepdefs.stepdefs - browser closed
+2022-Jan-31 08:45:14 AM [main] INFO  FlipkartHealtCheck.stepdefs.stepdefs - browser invoked
+2022-Jan-31 08:45:23 AM [main] INFO  FlipkartHealtCheck.pageobj.CmnPageObjects - Page title matched: Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra
+2022-Jan-31 08:45:23 AM [main] INFO  FlipkartHealtCheck.pageobj.CmnPageObjects - Value entered in search box: Tshirt
+2022-Jan-31 08:45:28 AM [main] INFO  FlipkartHealtCheck.pageobj.CmnPageObjects - Clicked on Search Button
+2022-Jan-31 08:45:28 AM [main] INFO  FlipkartHealtCheck.pageobj.SearchPageObjects - Number of products searched: 50
+2022-Jan-31 08:45:29 AM [main] INFO  FlipkartHealtCheck.pageobj.SearchPageObjects - Clicked on the Link in the List with index: 7. Link Text: Levis
+Men Typography Printed T-shirt
+Rs. 839Rs. 1399(40% OFF)
+2022-Jan-31 08:45:33 AM [main] INFO  FlipkartHealtCheck.pageobj.ProductDescriptionPageObjects - Product Title is displayed
+2022-Jan-31 08:45:33 AM [main] INFO  FlipkartHealtCheck.pageobj.ProductDescriptionPageObjects - Add to Cart Button is displayed
+2022-Jan-31 08:45:35 AM [main] INFO  FlipkartHealtCheck.stepdefs.stepdefs - browser closed

@@ -1,79 +1,83 @@
 [
   {
-    "line": 3,
+    "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-01-25T17:09:02.027Z",
-        "line": 5,
-        "name": "user is able to open browser, navigate to url and search for product",
+        "start_timestamp": "2022-02-01T04:50:01.528Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3952000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FlipkartHealtCheck.stepdefs.stepdefs.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User is able to Open the browser, navigate to the URL and Search for Product",
         "description": "",
-        "id": "ajio-webapp-testcase;user-is-able-to-open-browser--navigate-to-url-and-search-for-product",
+        "id": "e-commerce-project-web-site-health-check;user-is-able-to-open-the-browser--navigate-to-the-url-and-search-for-product",
+        "after": [
+          {
+            "result": {
+              "duration": 1487000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FlipkartHealtCheck.stepdefs.stepdefs.cleanup()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
+            "output": [
+              "user navigated to URL https://www.myntra.com/"
+            ],
             "result": {
-              "duration": 6589049800,
+              "duration": 10841000000,
               "status": "passed"
             },
             "line": 6,
-            "name": "user opened browser",
+            "name": "User navigated to the home application url",
             "match": {
-              "location": "AjioWebAppCheck.stepdefs1.stepdefs1.user_opened_browser()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 11660441900,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "url navigate to web url",
-            "match": {
-              "location": "AjioWebAppCheck.stepdefs1.stepdefs1.url_navigate_to_web_url()"
+              "location": "FlipkartHealtCheck.stepdefs.stepdefs.user_navigated_to_the_home_application_url()"
             },
             "keyword": "And "
           },
           {
+            "output": [
+              "Product Searched: Sweatshirts"
+            ],
             "result": {
-              "duration": 1224710700,
+              "duration": 4390000000,
               "status": "passed"
             },
-            "line": 8,
-            "name": "user searched for product \"hoodies\"",
+            "line": 7,
+            "name": "User Search for product \"Sweatshirts\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"hoodies\"",
-                  "offset": 26
+                  "val": "\"Sweatshirts\"",
+                  "offset": 24
                 }
               ],
-              "location": "AjioWebAppCheck.stepdefs1.stepdefs1.user_searched_for_product(java.lang.String)"
+              "location": "FlipkartHealtCheck.stepdefs.stepdefs.user_search_for_product(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 4179612200,
+              "duration": 98000000,
               "status": "passed"
             },
-            "line": 9,
-            "name": "output displayed for product",
+            "line": 8,
+            "name": "Search Result page is displayed",
             "match": {
-              "location": "AjioWebAppCheck.stepdefs1.stepdefs1.output_displayed_for_product()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3603406700,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user closed the browser",
-            "match": {
-              "location": "AjioWebAppCheck.stepdefs1.stepdefs1.user_closed_the_browser()"
+              "location": "FlipkartHealtCheck.stepdefs.stepdefs.search_result_page_is_displayed()"
             },
             "keyword": "Then "
           }
@@ -83,41 +87,157 @@
             "name": "@ui"
           },
           {
-            "name": "@healthtest"
+            "name": "@healtcheck"
           },
           {
-            "name": "@Ajio"
+            "name": "@Myntra"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-01T04:50:22.507Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1596000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FlipkartHealtCheck.stepdefs.stepdefs.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "User is able to Open the browser, navigate to the URL and Search for Product as well as he can add product to cart",
+        "description": "",
+        "id": "e-commerce-project-web-site-health-check;user-is-able-to-open-the-browser--navigate-to-the-url-and-search-for-product-as-well-as-he-can-add-product-to-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 1410000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FlipkartHealtCheck.stepdefs.stepdefs.cleanup()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "output": [
+              "user navigated to URL https://www.myntra.com/"
+            ],
+            "result": {
+              "duration": 9347000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User navigated to the home application url",
+            "match": {
+              "location": "FlipkartHealtCheck.stepdefs.stepdefs.user_navigated_to_the_home_application_url()"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Product Searched: Tshirt"
+            ],
+            "result": {
+              "duration": 3823000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User Search for product \"Tshirt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tshirt\"",
+                  "offset": 24
+                }
+              ],
+              "location": "FlipkartHealtCheck.stepdefs.stepdefs.user_search_for_product(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 461000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user clicked for Product",
+            "match": {
+              "location": "FlipkartHealtCheck.stepdefs.stepdefs.user_clicked_for_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "List of windows found: 2",
+              "Windows handles: [CDwindow-2723CC6E594F9D2E613895ACDE1742D4, CDwindow-1D2B42C9238B226C8F5220141E1945B4]",
+              "Switched to the new window/tab",
+              "Switched back to Original tab"
+            ],
+            "result": {
+              "duration": 5419000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "prouct description displayed on tab",
+            "match": {
+              "location": "FlipkartHealtCheck.stepdefs.stepdefs.prouct_description_displayed_on_tab()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui"
+          },
+          {
+            "name": "@healtcheck"
+          },
+          {
+            "name": "@Myntra"
+          },
+          {
+            "name": "@2nd"
+          },
+          {
+            "name": "@Product"
           }
         ]
       }
     ],
-    "name": "Ajio WebApp Testcase",
+    "name": "E-commerce Project Web Site Health Check",
     "description": "",
-    "id": "ajio-webapp-testcase",
+    "id": "e-commerce-project-web-site-health-check",
     "keyword": "Feature",
-    "uri": "classpath:features1/WebApp.feature",
+    "uri": "classpath:features/E-commerce.feature",
     "tags": [
       {
         "name": "@ui",
         "type": "Tag",
         "location": {
-          "line": 2,
+          "line": 1,
           "column": 1
         }
       },
       {
-        "name": "@healthtest",
+        "name": "@healtcheck",
         "type": "Tag",
         "location": {
-          "line": 2,
+          "line": 1,
           "column": 5
         }
       },
       {
-        "name": "@Ajio",
+        "name": "@Myntra",
         "type": "Tag",
         "location": {
-          "line": 2,
+          "line": 1,
           "column": 17
         }
       }

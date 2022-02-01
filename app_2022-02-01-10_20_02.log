@@ -1,0 +1,25 @@
+2022-Feb-01 10:20:05 AM [main] INFO  FlipkartHealtCheck.core.WebDriverFactory - Chrome Browser invoked
+2022-Feb-01 10:20:05 AM [main] INFO  FlipkartHealtCheck.core.WebDriverFactory - Driver maximized and implicit time out set to 20 seconds
+2022-Feb-01 10:20:05 AM [main] INFO  FlipkartHealtCheck.stepdefs.stepdefs - Browser invoked.
+2022-Feb-01 10:20:16 AM [main] INFO  FlipkartHealtCheck.core.WebDriverFactory - Browser navigated to the url: https://www.myntra.com/
+2022-Feb-01 10:20:16 AM [main] INFO  FlipkartHealtCheck.pageobj.CmnPageObjects - Page title matched: Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra
+2022-Feb-01 10:20:16 AM [main] INFO  FlipkartHealtCheck.pageobj.CmnPageObjects - Value entered in search box: Sweatshirts
+2022-Feb-01 10:20:20 AM [main] INFO  FlipkartHealtCheck.pageobj.CmnPageObjects - Clicked on Search Button
+2022-Feb-01 10:20:20 AM [main] INFO  FlipkartHealtCheck.pageobj.SearchPageObjects - Search Page is displayed because refinement category is displayed
+2022-Feb-01 10:20:22 AM [main] INFO  FlipkartHealtCheck.core.WebDriverFactory - Driver closed
+2022-Feb-01 10:20:22 AM [main] INFO  FlipkartHealtCheck.stepdefs.stepdefs - browser closed
+2022-Feb-01 10:20:23 AM [main] INFO  FlipkartHealtCheck.core.WebDriverFactory - Chrome Browser invoked
+2022-Feb-01 10:20:24 AM [main] INFO  FlipkartHealtCheck.core.WebDriverFactory - Driver maximized and implicit time out set to 20 seconds
+2022-Feb-01 10:20:24 AM [main] INFO  FlipkartHealtCheck.stepdefs.stepdefs - Browser invoked.
+2022-Feb-01 10:20:33 AM [main] INFO  FlipkartHealtCheck.core.WebDriverFactory - Browser navigated to the url: https://www.myntra.com/
+2022-Feb-01 10:20:33 AM [main] INFO  FlipkartHealtCheck.pageobj.CmnPageObjects - Page title matched: Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra
+2022-Feb-01 10:20:33 AM [main] INFO  FlipkartHealtCheck.pageobj.CmnPageObjects - Value entered in search box: Tshirt
+2022-Feb-01 10:20:37 AM [main] INFO  FlipkartHealtCheck.pageobj.CmnPageObjects - Clicked on Search Button
+2022-Feb-01 10:20:37 AM [main] INFO  FlipkartHealtCheck.pageobj.SearchPageObjects - Number of products searched: 50
+2022-Feb-01 10:20:37 AM [main] INFO  FlipkartHealtCheck.pageobj.SearchPageObjects - Clicked on the Link in the List with index: 7. Link Text: DILLINGER
+Striped Cotton Pure Cotton T-shirt
+Rs. 1199
+2022-Feb-01 10:20:42 AM [main] INFO  FlipkartHealtCheck.pageobj.ProductDescriptionPageObjects - Product Title is displayed
+2022-Feb-01 10:20:43 AM [main] INFO  FlipkartHealtCheck.pageobj.ProductDescriptionPageObjects - Add to Cart Button is displayed
+2022-Feb-01 10:20:44 AM [main] INFO  FlipkartHealtCheck.core.WebDriverFactory - Driver closed
+2022-Feb-01 10:20:44 AM [main] INFO  FlipkartHealtCheck.stepdefs.stepdefs - browser closed
