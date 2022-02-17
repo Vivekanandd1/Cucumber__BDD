@@ -1,28 +1,27 @@
 package FlipkartHealtCheck.stepdefs;
 
 import java.util.Iterator;
-import java.util.List;
 import java.util.Set;
-import java.util.concurrent.TimeUnit;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
 import FlipkartHealtCheck.core.WebDriverFactory;
+import FlipkartHealtCheck.pageobj.BagWishListObject;
+import FlipkartHealtCheck.pageobj.BrandSelctionPage;
+import FlipkartHealtCheck.pageobj.CmnPageObjects;
+import FlipkartHealtCheck.pageobj.HomePageObjects;
+import FlipkartHealtCheck.pageobj.ProductDescriptionPageObjects;
+import FlipkartHealtCheck.pageobj.SearchPageObjects;
+import FlipkartHealtCheck.pageobj.SignInPageObjects;
 import io.cucumber.java.Before;
 import io.cucumber.java.After;
 import io.cucumber.java.Scenario;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import junit.framework.Assert;
-import net.bytebuddy.implementation.bytecode.ByteCodeAppender.Size;
+
 
 public class stepdefs {
 	 //***********************************************************************
@@ -42,11 +41,14 @@ public class stepdefs {
 	    // Declare Page Object Model (note that we are not initilizing them here)
 	    // Before we could init them we need to have driver initialized
 	    // We Will init these objects in @Before Set Up method only after Driver object in set
-	    FlipkartHealtCheck.pageobj.CmnPageObjects cmnPageObjects;
-	    FlipkartHealtCheck.pageobj.HomePageObjects homePageObjects;
-	    FlipkartHealtCheck.pageobj.SignInPageObjects signInPageObjects;
-	    FlipkartHealtCheck.pageobj.SearchPageObjects searchPageObjects;
-	    FlipkartHealtCheck.pageobj.ProductDescriptionPageObjects productDescriptionPageObjects;
+	   CmnPageObjects cmnPageObjects;
+	    HomePageObjects homePageObjects;
+	    SignInPageObjects signInPageObjects;
+	    SearchPageObjects searchPageObjects;
+	    ProductDescriptionPageObjects productDescriptionPageObjects;
+	    BagWishListObject bagWishListObject;
+	    BrandSelctionPage brandSelctionPage;
+	    
 	    // make sure to use this before import io.cucumber.java.Before;
 	    // Use @Before to execute steps to be executed before each scnerio
 	    // one example can be to invoke the browser
@@ -68,13 +70,25 @@ public class stepdefs {
 	        signInPageObjects = new FlipkartHealtCheck.pageobj.SignInPageObjects(driver);
 	        searchPageObjects = new FlipkartHealtCheck.pageobj.SearchPageObjects(driver);
 	        productDescriptionPageObjects = new FlipkartHealtCheck.pageobj.ProductDescriptionPageObjects(driver);
+	        bagWishListObject = new FlipkartHealtCheck.pageobj.BagWishListObject(driver);
+	        brandSelctionPage =new FlipkartHealtCheck.pageobj.BrandSelctionPage(driver);
 	    }
 	 
-    @After
+    @After(order=1)
     public void cleanup()
     {
     	WebDriverFactory.quitDriver();
     	log.info("browser closed");
+    }
+    @After(order=2) // this will execute first, higher the number, sooner it executes
+    public void takeScreenShot(Scenario s) {
+      if (s.isFailed()) {
+          TakesScreenshot scrnShot = (TakesScreenshot)driver;
+          byte[] data = scrnShot.getScreenshotAs(OutputType.BYTES);
+          scn.attach(data, "image/png","Failed Step Name: " + s.getName());
+      }else{
+          scn.log("Test case is passed, no screen shot captured");
+      }
     }
 	
 //	@Given("User opened browser")
@@ -144,5 +158,40 @@ public class stepdefs {
    
  
     }
+    
+    @When("user clicked on Bag")
+    public void user_clicked_on_bag() {
+    	bagWishListObject.ClickOnBag();
+    	scn.log("user clicked on bag");
+        
+    }
+
+
+    //Some other steps were also undefined:
+
+    @Then("product added from wishlist")
+    public void product_added_from_wishlist() {
+    	bagWishListObject.ClickOnWishlist();
+    	scn.log("product added from wishlist");
+        
+    }
+    @When("user clicked on Brand tag")
+    public void user_clicked_on_brand_tag() {
+    	brandSelctionPage.BrandSelect();
+    	scn.log("user clicked on desired brand");
+        
+    }
+
+    @When("User filters gender")
+    public void user_filters_gender() {
+        brandSelctionPage.GenFilter();
+        scn.log("user filtered gender");
+    }
+    @Then("user selects choice from category")
+    public void user_selects_choice_from_category() {
+        brandSelctionPage.CategorySelection();
+        scn.log("user selects category for product");
+    }
+
  
 }

@@ -27,6 +27,9 @@ public class CmnPageObjects {
 	private By nav_link_cart =  By.xpath("//span[@class='myntraweb-sprite desktop-iconBag sprites-headerBag']");
 	private By nav_link_wishlist =  By.xpath("//span[@class='myntraweb-sprite desktop-iconWishlist sprites-headerWishlist']");
 	private By nav_link_profile =  By.xpath("//span[@class='myntraweb-sprite desktop-iconUser sprites-headerUser']");
+	private By BagButton = By.xpath("//span[@class='myntraweb-sprite desktop-iconBag sprites-headerBag']");
+    private  By AddFromWishlist = By.xpath("//div[@class='button-base-button emptyCart-base-wishlistButton ']");
+	
 
 	
 	public CmnPageObjects(WebDriver driver) {
@@ -50,6 +53,16 @@ public class CmnPageObjects {
 		boolean b = driver.findElement(nav_link_logo).isDisplayed();
 		Assert.assertEquals("Navigation link logo",true, b);
 	}
+	 public void ClickOnBag(){
+	        driver.findElement(BagButton).click();
+	        log.info("user clicked on bag");
+	        
+	 }
+	 
+	 public void ClickOnWishlist(){
+	       driver.findElement(AddFromWishlist).click();
+	        log.info("user clicked on wishlist");
+	 }
 	
 	public void validatePageTitleMatch(String expectedTitle) {
 		WebDriverWait wait = new WebDriverWait(driver, 30);
