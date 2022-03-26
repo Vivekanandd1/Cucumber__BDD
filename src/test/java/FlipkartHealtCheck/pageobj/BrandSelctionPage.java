@@ -23,7 +23,7 @@ public class BrandSelctionPage {
 	
 	private By  SearchBox = By.xpath("//input[@placeholder='Search for products, brands and more']");
 	private By SearchBTn = By.xpath("//a[@class='desktop-submit']");
-    private By filterBTn = By.xpath("//label/input[@value='men,men women']");
+    private By filterBTn = By.xpath("//label[text()='Men']");
     private By CategoryBTn = By.xpath("//label[text()='Jeans']");
 
 public BrandSelctionPage(WebDriver driver){

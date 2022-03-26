@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		features = "classpath:features",
 		glue = "FlipkartHealtCheck.stepdefs",
-		tags = " ",
+		tags = "@ProductBag",
 		plugin = {
 				"pretty",
 				"html:target/html/htmlreport1.html",

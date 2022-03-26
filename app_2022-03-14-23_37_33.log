@@ -1,0 +1,9 @@
+2022-Mar-14 23:37:39 PM [main] INFO  FlipkartHealtCheck.core.WebDriverFactory - Chrome Browser invoked
+2022-Mar-14 23:37:39 PM [main] INFO  FlipkartHealtCheck.core.WebDriverFactory - Driver maximized and implicit time out set to 20 seconds
+2022-Mar-14 23:37:39 PM [main] INFO  FlipkartHealtCheck.stepdefs.stepdefs - Browser invoked.
+2022-Mar-14 23:37:51 PM [main] INFO  FlipkartHealtCheck.core.WebDriverFactory - Browser navigated to the url: https://www.myntra.com/
+2022-Mar-14 23:37:51 PM [main] INFO  FlipkartHealtCheck.pageobj.CmnPageObjects - Page title matched: Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra
+2022-Mar-14 23:37:58 PM [main] INFO  FlipkartHealtCheck.pageobj.BagWishListObject - user clicked on bag
+2022-Mar-14 23:37:58 PM [main] INFO  FlipkartHealtCheck.pageobj.BagWishListObject - user clicked on wishlist
+2022-Mar-14 23:37:59 PM [main] INFO  FlipkartHealtCheck.core.WebDriverFactory - Driver closed
+2022-Mar-14 23:37:59 PM [main] INFO  FlipkartHealtCheck.stepdefs.stepdefs - browser closed

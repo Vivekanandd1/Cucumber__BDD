@@ -1,0 +1,74 @@
+2022-Mar-07 09:46:01 AM [main] INFO  FlipkartHealtCheck.core.WebDriverFactory - Chrome Browser invoked
+2022-Mar-07 09:46:01 AM [main] INFO  FlipkartHealtCheck.core.WebDriverFactory - Driver maximized and implicit time out set to 20 seconds
+2022-Mar-07 09:46:01 AM [main] INFO  FlipkartHealtCheck.stepdefs.stepdefs - Browser invoked.
+2022-Mar-07 09:46:14 AM [main] INFO  FlipkartHealtCheck.core.WebDriverFactory - Browser navigated to the url: https://www.myntra.com/
+2022-Mar-07 09:46:15 AM [main] INFO  FlipkartHealtCheck.pageobj.CmnPageObjects - Page title matched: Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra
+2022-Mar-07 09:46:18 AM [main] INFO  FlipkartHealtCheck.pageobj.CmnPageObjects - Value entered in search box: Hoodies
+2022-Mar-07 09:46:29 AM [main] INFO  FlipkartHealtCheck.pageobj.CmnPageObjects - Clicked on Search Button
+2022-Mar-07 09:46:29 AM [main] INFO  FlipkartHealtCheck.pageobj.SearchPageObjects - Search Page is displayed because refinement category is displayed
+2022-Mar-07 09:46:31 AM [main] INFO  FlipkartHealtCheck.core.WebDriverFactory - Driver closed
+2022-Mar-07 09:46:31 AM [main] INFO  FlipkartHealtCheck.stepdefs.stepdefs - browser closed
+2022-Mar-07 09:46:36 AM [main] INFO  FlipkartHealtCheck.core.WebDriverFactory - Chrome Browser invoked
+2022-Mar-07 09:46:36 AM [main] INFO  FlipkartHealtCheck.core.WebDriverFactory - Driver maximized and implicit time out set to 20 seconds
+2022-Mar-07 09:46:36 AM [main] INFO  FlipkartHealtCheck.stepdefs.stepdefs - Browser invoked.
+2022-Mar-07 09:46:48 AM [main] INFO  FlipkartHealtCheck.core.WebDriverFactory - Browser navigated to the url: https://www.myntra.com/
+2022-Mar-07 09:46:48 AM [main] INFO  FlipkartHealtCheck.pageobj.CmnPageObjects - Page title matched: Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra
+2022-Mar-07 09:46:48 AM [main] INFO  FlipkartHealtCheck.pageobj.CmnPageObjects - Value entered in search box: Jeans
+2022-Mar-07 09:46:56 AM [main] INFO  FlipkartHealtCheck.pageobj.CmnPageObjects - Clicked on Search Button
+2022-Mar-07 09:46:57 AM [main] INFO  FlipkartHealtCheck.pageobj.SearchPageObjects - Search Page is displayed because refinement category is displayed
+2022-Mar-07 09:46:58 AM [main] INFO  FlipkartHealtCheck.core.WebDriverFactory - Driver closed
+2022-Mar-07 09:46:58 AM [main] INFO  FlipkartHealtCheck.stepdefs.stepdefs - browser closed
+2022-Mar-07 09:47:00 AM [main] INFO  FlipkartHealtCheck.core.WebDriverFactory - Chrome Browser invoked
+2022-Mar-07 09:47:00 AM [main] INFO  FlipkartHealtCheck.core.WebDriverFactory - Driver maximized and implicit time out set to 20 seconds
+2022-Mar-07 09:47:00 AM [main] INFO  FlipkartHealtCheck.stepdefs.stepdefs - Browser invoked.
+2022-Mar-07 09:47:10 AM [main] INFO  FlipkartHealtCheck.core.WebDriverFactory - Browser navigated to the url: https://www.myntra.com/
+2022-Mar-07 09:47:10 AM [main] INFO  FlipkartHealtCheck.pageobj.CmnPageObjects - Page title matched: Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra
+2022-Mar-07 09:47:11 AM [main] INFO  FlipkartHealtCheck.pageobj.CmnPageObjects - Value entered in search box: Shirt
+2022-Mar-07 09:47:18 AM [main] INFO  FlipkartHealtCheck.pageobj.CmnPageObjects - Clicked on Search Button
+2022-Mar-07 09:47:18 AM [main] INFO  FlipkartHealtCheck.pageobj.SearchPageObjects - Search Page is displayed because refinement category is displayed
+2022-Mar-07 09:47:19 AM [main] INFO  FlipkartHealtCheck.core.WebDriverFactory - Driver closed
+2022-Mar-07 09:47:19 AM [main] INFO  FlipkartHealtCheck.stepdefs.stepdefs - browser closed
+2022-Mar-07 09:47:21 AM [main] INFO  FlipkartHealtCheck.core.WebDriverFactory - Chrome Browser invoked
+2022-Mar-07 09:47:21 AM [main] INFO  FlipkartHealtCheck.core.WebDriverFactory - Driver maximized and implicit time out set to 20 seconds
+2022-Mar-07 09:47:21 AM [main] INFO  FlipkartHealtCheck.stepdefs.stepdefs - Browser invoked.
+2022-Mar-07 09:47:32 AM [main] INFO  FlipkartHealtCheck.core.WebDriverFactory - Browser navigated to the url: https://www.myntra.com/
+2022-Mar-07 09:47:32 AM [main] INFO  FlipkartHealtCheck.pageobj.CmnPageObjects - Page title matched: Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra
+2022-Mar-07 09:47:33 AM [main] INFO  FlipkartHealtCheck.pageobj.CmnPageObjects - Value entered in search box: Joggers
+2022-Mar-07 09:47:42 AM [main] INFO  FlipkartHealtCheck.pageobj.CmnPageObjects - Clicked on Search Button
+2022-Mar-07 09:47:42 AM [main] INFO  FlipkartHealtCheck.pageobj.SearchPageObjects - Search Page is displayed because refinement category is displayed
+2022-Mar-07 09:47:43 AM [main] INFO  FlipkartHealtCheck.core.WebDriverFactory - Driver closed
+2022-Mar-07 09:47:43 AM [main] INFO  FlipkartHealtCheck.stepdefs.stepdefs - browser closed
+2022-Mar-07 09:47:45 AM [main] INFO  FlipkartHealtCheck.core.WebDriverFactory - Chrome Browser invoked
+2022-Mar-07 09:47:45 AM [main] INFO  FlipkartHealtCheck.core.WebDriverFactory - Driver maximized and implicit time out set to 20 seconds
+2022-Mar-07 09:47:45 AM [main] INFO  FlipkartHealtCheck.stepdefs.stepdefs - Browser invoked.
+2022-Mar-07 09:47:57 AM [main] INFO  FlipkartHealtCheck.core.WebDriverFactory - Browser navigated to the url: https://www.myntra.com/
+2022-Mar-07 09:47:57 AM [main] INFO  FlipkartHealtCheck.pageobj.CmnPageObjects - Page title matched: Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra
+2022-Mar-07 09:47:57 AM [main] INFO  FlipkartHealtCheck.pageobj.CmnPageObjects - Value entered in search box: Tshirt
+2022-Mar-07 09:48:05 AM [main] INFO  FlipkartHealtCheck.pageobj.CmnPageObjects - Clicked on Search Button
+2022-Mar-07 09:48:05 AM [main] INFO  FlipkartHealtCheck.pageobj.SearchPageObjects - Number of products searched: 50
+2022-Mar-07 09:48:06 AM [main] INFO  FlipkartHealtCheck.pageobj.SearchPageObjects - Clicked on the Link in the List with index: 7. Link Text: Roadster
+Pure Cotton T-shirt
+Rs. 224Rs. 499(55% OFF)
+2022-Mar-07 09:48:12 AM [main] INFO  FlipkartHealtCheck.pageobj.ProductDescriptionPageObjects - Product Title is displayed
+2022-Mar-07 09:48:12 AM [main] INFO  FlipkartHealtCheck.pageobj.ProductDescriptionPageObjects - Add to Cart Button is displayed
+2022-Mar-07 09:48:13 AM [main] INFO  FlipkartHealtCheck.core.WebDriverFactory - Driver closed
+2022-Mar-07 09:48:13 AM [main] INFO  FlipkartHealtCheck.stepdefs.stepdefs - browser closed
+2022-Mar-07 09:48:15 AM [main] INFO  FlipkartHealtCheck.core.WebDriverFactory - Chrome Browser invoked
+2022-Mar-07 09:48:15 AM [main] INFO  FlipkartHealtCheck.core.WebDriverFactory - Driver maximized and implicit time out set to 20 seconds
+2022-Mar-07 09:48:15 AM [main] INFO  FlipkartHealtCheck.stepdefs.stepdefs - Browser invoked.
+2022-Mar-07 09:48:28 AM [main] INFO  FlipkartHealtCheck.core.WebDriverFactory - Browser navigated to the url: https://www.myntra.com/
+2022-Mar-07 09:48:28 AM [main] INFO  FlipkartHealtCheck.pageobj.CmnPageObjects - Page title matched: Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra
+2022-Mar-07 09:48:34 AM [main] INFO  FlipkartHealtCheck.pageobj.BagWishListObject - user clicked on bag
+2022-Mar-07 09:48:38 AM [main] INFO  FlipkartHealtCheck.pageobj.BagWishListObject - user clicked on wishlist
+2022-Mar-07 09:48:39 AM [main] INFO  FlipkartHealtCheck.core.WebDriverFactory - Driver closed
+2022-Mar-07 09:48:39 AM [main] INFO  FlipkartHealtCheck.stepdefs.stepdefs - browser closed
+2022-Mar-07 09:48:41 AM [main] INFO  FlipkartHealtCheck.core.WebDriverFactory - Chrome Browser invoked
+2022-Mar-07 09:48:42 AM [main] INFO  FlipkartHealtCheck.core.WebDriverFactory - Driver maximized and implicit time out set to 20 seconds
+2022-Mar-07 09:48:42 AM [main] INFO  FlipkartHealtCheck.stepdefs.stepdefs - Browser invoked.
+2022-Mar-07 09:48:53 AM [main] INFO  FlipkartHealtCheck.core.WebDriverFactory - Browser navigated to the url: https://www.myntra.com/
+2022-Mar-07 09:48:53 AM [main] INFO  FlipkartHealtCheck.pageobj.CmnPageObjects - Page title matched: Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra
+2022-Mar-07 09:49:01 AM [main] INFO  FlipkartHealtCheck.pageobj.BrandSelctionPage - user clicked for desired Brand
+2022-Mar-07 09:49:01 AM [main] INFO  FlipkartHealtCheck.pageobj.BrandSelctionPage - User filtered the gender
+2022-Mar-07 09:49:01 AM [main] INFO  FlipkartHealtCheck.pageobj.BrandSelctionPage - Category selection done by user
+2022-Mar-07 09:49:02 AM [main] INFO  FlipkartHealtCheck.core.WebDriverFactory - Driver closed
+2022-Mar-07 09:49:02 AM [main] INFO  FlipkartHealtCheck.stepdefs.stepdefs - browser closed
