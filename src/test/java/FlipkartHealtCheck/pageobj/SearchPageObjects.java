@@ -32,7 +32,7 @@ public class SearchPageObjects {
         this.driver = driver;
     }
 
-    public void ValidateProductSearchIsSuccessfull(){
+    public void ValidateProductSearchIsSuccessfull(String Price){
         if (driver.findElement(search_refinement_categories_segment).isDisplayed()){
             Assert.assertTrue(true);
             log.info("Search Page is displayed because refinement category is displayed");

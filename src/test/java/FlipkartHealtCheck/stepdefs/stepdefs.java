@@ -43,7 +43,7 @@ public class stepdefs {
 	    // Declare Page Object Model (note that we are not initilizing them here)
 	    // Before we could init them we need to have driver initialized
 	    // We Will init these objects in @Before Set Up method only after Driver object in set
-	   CmnPageObjects cmnPageObjects;
+	    CmnPageObjects cmnPageObjects;
 	    HomePageObjects homePageObjects;
 	    SignInPageObjects signInPageObjects;
 	    SearchPageObjects searchPageObjects;
@@ -118,16 +118,12 @@ public class stepdefs {
         cmnPageObjects.ClickOnSearchButton();
         scn.log("Product Searched: " + ProductName);
 	}
-	@Then("Search Result page is displayed")
-	public void search_result_page_is_displayed() {
-		searchPageObjects.ValidateProductSearchIsSuccessfull();
-	}
+	
 
-//    @Then("user closed browser")
-//    public void user_closed_browser()
-//    {
-//    	driver.quit();
-//    }
+	@Then("Search Result page is displayed and the price is {string}")
+	public void search_result_page_is_displayed_and_the_price_is(String Price) {
+		searchPageObjects.ValidateProductSearchIsSuccessfull(Price);
+	}
     
     @When("user clicked for Product")
     public void user_clicked_for_product() {

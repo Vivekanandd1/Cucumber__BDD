@@ -8,13 +8,13 @@ Background: Navigation to the URL
     #Given User opened browser
    # And User navigated to the home application url
     When User Search for product "<product_name>"
-    Then Search Result page is displayed
+    Then Search Result page is displayed and the price is "<Price>"
    Examples:
-    |product_name|
-    | Hoodies    |
-    | Jeans      |
-    | Shirt      |
-    |Joggers     |
+    |product_name| Price |
+    | Hoodies    | 10    |   
+    | Jeans      | 20    |
+    | Shirt      | 30    |
+    |Joggers     | 40    | 
 
   @2nd @Product
 	  Scenario: User is able to Open the browser, navigate to the URL and Search for Product as well as he can add product to cart
