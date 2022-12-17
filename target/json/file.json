@@ -10,9 +10,12 @@
         "keyword": "Background",
         "steps": [
           {
+            "output": [
+              "user navigated to URL https://www.myntra.com/"
+            ],
             "result": {
-              "duration": 1998600,
-              "status": "skipped"
+              "duration": 12645682800,
+              "status": "passed"
             },
             "line": 5,
             "name": "User navigated to the home application url",
@@ -24,13 +27,12 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-19T13:14:10.738Z",
+        "start_timestamp": "2022-12-17T14:03:01.952Z",
         "before": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 99\nCurrent browser version is 102.0.5005.115 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESHMUKH\u0027, ip: \u0027192.168.91.221\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.1\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00E99943+2595139]\n\tOrdinal0 [0x00E2C9F1+2148849]\n\tOrdinal0 [0x00D24528+1066280]\n\tOrdinal0 [0x00D442C3+1196739]\n\tOrdinal0 [0x00D3FE37+1179191]\n\tOrdinal0 [0x00D3D6F1+1169137]\n\tOrdinal0 [0x00D70530+1377584]\n\tOrdinal0 [0x00D7018A+1376650]\n\tOrdinal0 [0x00D6B806+1357830]\n\tOrdinal0 [0x00D46086+1204358]\n\tOrdinal0 [0x00D46F96+1208214]\n\tGetHandleVerifier [0x0103B232+1658114]\n\tGetHandleVerifier [0x010F312C+2411516]\n\tGetHandleVerifier [0x00F2F261+560433]\n\tGetHandleVerifier [0x00F2E366+556598]\n\tOrdinal0 [0x00E3286B+2173035]\n\tOrdinal0 [0x00E375F8+2192888]\n\tOrdinal0 [0x00E376E5+2193125]\n\tOrdinal0 [0x00E411FC+2232828]\n\tBaseThreadInitThunk [0x772FFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77967A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77967A4E+238]\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\r\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)\r\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)\r\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\r\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\r\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat FlipkartHealtCheck.core.WebDriverFactory.getWebDriverForBrowser(WebDriverFactory.java:20)\r\n\tat FlipkartHealtCheck.stepdefs.stepdefs.setUp(stepdefs.java:66)\r\n",
-              "duration": 8023399000,
-              "status": "failed"
+              "duration": 21383473600,
+              "status": "passed"
             },
             "match": {
               "location": "FlipkartHealtCheck.stepdefs.stepdefs.setUp(io.cucumber.java.Scenario)"
@@ -43,10 +45,12 @@
         "id": "e-commerce-project-web-site-health-check;user-is-able-to-open-the-browser--navigate-to-the-url-and-search-for-product;;2",
         "after": [
           {
+            "output": [
+              "Test case is passed, no screen shot captured"
+            ],
             "result": {
-              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)\" because \"scrnShot\" is null\r\n\tat FlipkartHealtCheck.stepdefs.stepdefs.takeScreenShot(stepdefs.java:89)\r\n",
-              "duration": 3994800,
-              "status": "failed"
+              "duration": 5996900,
+              "status": "passed"
             },
             "match": {
               "location": "FlipkartHealtCheck.stepdefs.stepdefs.takeScreenShot(io.cucumber.java.Scenario)"
@@ -54,9 +58,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because \"FlipkartHealtCheck.core.WebDriverFactory.driver\" is null\r\n\tat FlipkartHealtCheck.core.WebDriverFactory.quitDriver(WebDriverFactory.java:51)\r\n\tat FlipkartHealtCheck.stepdefs.stepdefs.cleanup(stepdefs.java:82)\r\n",
-              "duration": 999300,
-              "status": "failed"
+              "duration": 1922802800,
+              "status": "passed"
             },
             "match": {
               "location": "FlipkartHealtCheck.stepdefs.stepdefs.cleanup()"
@@ -67,8 +70,12 @@
         "keyword": "Scenario Outline",
         "steps": [
           {
+            "output": [
+              "Product Searched: Hoodies"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 18742413800,
+              "status": "passed"
             },
             "line": 10,
             "name": "User Search for product \"Hoodies\"",
@@ -85,8 +92,8 @@
           },
           {
             "result": {
-              "duration": 999800,
-              "status": "skipped"
+              "duration": 106931300,
+              "status": "passed"
             },
             "line": 11,
             "name": "Search Result page is displayed and the price is \"10\"",
@@ -122,9 +129,12 @@
         "keyword": "Background",
         "steps": [
           {
+            "output": [
+              "user navigated to URL https://www.myntra.com/"
+            ],
             "result": {
-              "duration": 1998600,
-              "status": "skipped"
+              "duration": 13711420500,
+              "status": "passed"
             },
             "line": 5,
             "name": "User navigated to the home application url",
@@ -136,13 +146,12 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-19T13:14:19.109Z",
+        "start_timestamp": "2022-12-17T14:03:57.107Z",
         "before": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 99\nCurrent browser version is 102.0.5005.115 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESHMUKH\u0027, ip: \u0027192.168.91.221\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.1\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00E99943+2595139]\n\tOrdinal0 [0x00E2C9F1+2148849]\n\tOrdinal0 [0x00D24528+1066280]\n\tOrdinal0 [0x00D442C3+1196739]\n\tOrdinal0 [0x00D3FE37+1179191]\n\tOrdinal0 [0x00D3D6F1+1169137]\n\tOrdinal0 [0x00D70530+1377584]\n\tOrdinal0 [0x00D7018A+1376650]\n\tOrdinal0 [0x00D6B806+1357830]\n\tOrdinal0 [0x00D46086+1204358]\n\tOrdinal0 [0x00D46F96+1208214]\n\tGetHandleVerifier [0x0103B232+1658114]\n\tGetHandleVerifier [0x010F312C+2411516]\n\tGetHandleVerifier [0x00F2F261+560433]\n\tGetHandleVerifier [0x00F2E366+556598]\n\tOrdinal0 [0x00E3286B+2173035]\n\tOrdinal0 [0x00E375F8+2192888]\n\tOrdinal0 [0x00E376E5+2193125]\n\tOrdinal0 [0x00E411FC+2232828]\n\tBaseThreadInitThunk [0x772FFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77967A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77967A4E+238]\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\r\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)\r\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)\r\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\r\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\r\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat FlipkartHealtCheck.core.WebDriverFactory.getWebDriverForBrowser(WebDriverFactory.java:20)\r\n\tat FlipkartHealtCheck.stepdefs.stepdefs.setUp(stepdefs.java:66)\r\n",
-              "duration": 1908547100,
-              "status": "failed"
+              "duration": 2887828300,
+              "status": "passed"
             },
             "match": {
               "location": "FlipkartHealtCheck.stepdefs.stepdefs.setUp(io.cucumber.java.Scenario)"
@@ -155,10 +164,12 @@
         "id": "e-commerce-project-web-site-health-check;user-is-able-to-open-the-browser--navigate-to-the-url-and-search-for-product;;3",
         "after": [
           {
+            "output": [
+              "Test case is passed, no screen shot captured"
+            ],
             "result": {
-              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)\" because \"scrnShot\" is null\r\n\tat FlipkartHealtCheck.stepdefs.stepdefs.takeScreenShot(stepdefs.java:89)\r\n",
-              "duration": 999500,
-              "status": "failed"
+              "duration": 998900,
+              "status": "passed"
             },
             "match": {
               "location": "FlipkartHealtCheck.stepdefs.stepdefs.takeScreenShot(io.cucumber.java.Scenario)"
@@ -166,9 +177,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because \"FlipkartHealtCheck.core.WebDriverFactory.driver\" is null\r\n\tat FlipkartHealtCheck.core.WebDriverFactory.quitDriver(WebDriverFactory.java:51)\r\n\tat FlipkartHealtCheck.stepdefs.stepdefs.cleanup(stepdefs.java:82)\r\n",
-              "duration": 1999400,
-              "status": "failed"
+              "duration": 603622200,
+              "status": "passed"
             },
             "match": {
               "location": "FlipkartHealtCheck.stepdefs.stepdefs.cleanup()"
@@ -179,8 +189,12 @@
         "keyword": "Scenario Outline",
         "steps": [
           {
+            "output": [
+              "Product Searched: Jeans"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 11213413700,
+              "status": "passed"
             },
             "line": 10,
             "name": "User Search for product \"Jeans\"",
@@ -197,8 +211,8 @@
           },
           {
             "result": {
-              "duration": 999900,
-              "status": "skipped"
+              "duration": 69660800,
+              "status": "passed"
             },
             "line": 11,
             "name": "Search Result page is displayed and the price is \"20\"",
@@ -234,9 +248,12 @@
         "keyword": "Background",
         "steps": [
           {
+            "output": [
+              "user navigated to URL https://www.myntra.com/"
+            ],
             "result": {
-              "duration": 999600,
-              "status": "skipped"
+              "duration": 10815690900,
+              "status": "passed"
             },
             "line": 5,
             "name": "User navigated to the home application url",
@@ -248,13 +265,12 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-19T13:14:21.069Z",
+        "start_timestamp": "2022-12-17T14:04:25.637Z",
         "before": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 99\nCurrent browser version is 102.0.5005.115 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESHMUKH\u0027, ip: \u0027192.168.91.221\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.1\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00E99943+2595139]\n\tOrdinal0 [0x00E2C9F1+2148849]\n\tOrdinal0 [0x00D24528+1066280]\n\tOrdinal0 [0x00D442C3+1196739]\n\tOrdinal0 [0x00D3FE37+1179191]\n\tOrdinal0 [0x00D3D6F1+1169137]\n\tOrdinal0 [0x00D70530+1377584]\n\tOrdinal0 [0x00D7018A+1376650]\n\tOrdinal0 [0x00D6B806+1357830]\n\tOrdinal0 [0x00D46086+1204358]\n\tOrdinal0 [0x00D46F96+1208214]\n\tGetHandleVerifier [0x0103B232+1658114]\n\tGetHandleVerifier [0x010F312C+2411516]\n\tGetHandleVerifier [0x00F2F261+560433]\n\tGetHandleVerifier [0x00F2E366+556598]\n\tOrdinal0 [0x00E3286B+2173035]\n\tOrdinal0 [0x00E375F8+2192888]\n\tOrdinal0 [0x00E376E5+2193125]\n\tOrdinal0 [0x00E411FC+2232828]\n\tBaseThreadInitThunk [0x772FFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77967A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77967A4E+238]\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\r\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)\r\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)\r\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\r\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\r\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat FlipkartHealtCheck.core.WebDriverFactory.getWebDriverForBrowser(WebDriverFactory.java:20)\r\n\tat FlipkartHealtCheck.stepdefs.stepdefs.setUp(stepdefs.java:66)\r\n",
-              "duration": 2032030900,
-              "status": "failed"
+              "duration": 1994479300,
+              "status": "passed"
             },
             "match": {
               "location": "FlipkartHealtCheck.stepdefs.stepdefs.setUp(io.cucumber.java.Scenario)"
@@ -267,10 +283,12 @@
         "id": "e-commerce-project-web-site-health-check;user-is-able-to-open-the-browser--navigate-to-the-url-and-search-for-product;;4",
         "after": [
           {
+            "output": [
+              "Test case is passed, no screen shot captured"
+            ],
             "result": {
-              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)\" because \"scrnShot\" is null\r\n\tat FlipkartHealtCheck.stepdefs.stepdefs.takeScreenShot(stepdefs.java:89)\r\n",
-              "duration": 999000,
-              "status": "failed"
+              "duration": 1000400,
+              "status": "passed"
             },
             "match": {
               "location": "FlipkartHealtCheck.stepdefs.stepdefs.takeScreenShot(io.cucumber.java.Scenario)"
@@ -278,9 +296,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because \"FlipkartHealtCheck.core.WebDriverFactory.driver\" is null\r\n\tat FlipkartHealtCheck.core.WebDriverFactory.quitDriver(WebDriverFactory.java:51)\r\n\tat FlipkartHealtCheck.stepdefs.stepdefs.cleanup(stepdefs.java:82)\r\n",
-              "duration": 999100,
-              "status": "failed"
+              "duration": 462317900,
+              "status": "passed"
             },
             "match": {
               "location": "FlipkartHealtCheck.stepdefs.stepdefs.cleanup()"
@@ -291,8 +308,12 @@
         "keyword": "Scenario Outline",
         "steps": [
           {
+            "output": [
+              "Product Searched: Shirt"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 8297345700,
+              "status": "passed"
             },
             "line": 10,
             "name": "User Search for product \"Shirt\"",
@@ -309,8 +330,8 @@
           },
           {
             "result": {
-              "duration": 999700,
-              "status": "skipped"
+              "duration": 51967400,
+              "status": "passed"
             },
             "line": 11,
             "name": "Search Result page is displayed and the price is \"30\"",
@@ -346,8 +367,12 @@
         "keyword": "Background",
         "steps": [
           {
+            "output": [
+              "user navigated to URL https://www.myntra.com/"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 10569026500,
+              "status": "passed"
             },
             "line": 5,
             "name": "User navigated to the home application url",
@@ -359,13 +384,12 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-19T13:14:23.182Z",
+        "start_timestamp": "2022-12-17T14:04:47.287Z",
         "before": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 99\nCurrent browser version is 102.0.5005.115 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESHMUKH\u0027, ip: \u0027192.168.91.221\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.1\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00E99943+2595139]\n\tOrdinal0 [0x00E2C9F1+2148849]\n\tOrdinal0 [0x00D24528+1066280]\n\tOrdinal0 [0x00D442C3+1196739]\n\tOrdinal0 [0x00D3FE37+1179191]\n\tOrdinal0 [0x00D3D6F1+1169137]\n\tOrdinal0 [0x00D70530+1377584]\n\tOrdinal0 [0x00D7018A+1376650]\n\tOrdinal0 [0x00D6B806+1357830]\n\tOrdinal0 [0x00D46086+1204358]\n\tOrdinal0 [0x00D46F96+1208214]\n\tGetHandleVerifier [0x0103B232+1658114]\n\tGetHandleVerifier [0x010F312C+2411516]\n\tGetHandleVerifier [0x00F2F261+560433]\n\tGetHandleVerifier [0x00F2E366+556598]\n\tOrdinal0 [0x00E3286B+2173035]\n\tOrdinal0 [0x00E375F8+2192888]\n\tOrdinal0 [0x00E376E5+2193125]\n\tOrdinal0 [0x00E411FC+2232828]\n\tBaseThreadInitThunk [0x772FFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77967A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77967A4E+238]\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\r\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)\r\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)\r\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\r\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\r\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat FlipkartHealtCheck.core.WebDriverFactory.getWebDriverForBrowser(WebDriverFactory.java:20)\r\n\tat FlipkartHealtCheck.stepdefs.stepdefs.setUp(stepdefs.java:66)\r\n",
-              "duration": 1750980800,
-              "status": "failed"
+              "duration": 1505354900,
+              "status": "passed"
             },
             "match": {
               "location": "FlipkartHealtCheck.stepdefs.stepdefs.setUp(io.cucumber.java.Scenario)"
@@ -378,10 +402,12 @@
         "id": "e-commerce-project-web-site-health-check;user-is-able-to-open-the-browser--navigate-to-the-url-and-search-for-product;;5",
         "after": [
           {
+            "output": [
+              "Test case is passed, no screen shot captured"
+            ],
             "result": {
-              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)\" because \"scrnShot\" is null\r\n\tat FlipkartHealtCheck.stepdefs.stepdefs.takeScreenShot(stepdefs.java:89)\r\n",
-              "duration": 998700,
-              "status": "failed"
+              "duration": 999900,
+              "status": "passed"
             },
             "match": {
               "location": "FlipkartHealtCheck.stepdefs.stepdefs.takeScreenShot(io.cucumber.java.Scenario)"
@@ -389,9 +415,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because \"FlipkartHealtCheck.core.WebDriverFactory.driver\" is null\r\n\tat FlipkartHealtCheck.core.WebDriverFactory.quitDriver(WebDriverFactory.java:51)\r\n\tat FlipkartHealtCheck.stepdefs.stepdefs.cleanup(stepdefs.java:82)\r\n",
-              "duration": 1001600,
-              "status": "failed"
+              "duration": 642385900,
+              "status": "passed"
             },
             "match": {
               "location": "FlipkartHealtCheck.stepdefs.stepdefs.cleanup()"
@@ -402,9 +427,12 @@
         "keyword": "Scenario Outline",
         "steps": [
           {
+            "output": [
+              "Product Searched: Joggers"
+            ],
             "result": {
-              "duration": 999700,
-              "status": "skipped"
+              "duration": 10394583600,
+              "status": "passed"
             },
             "line": 10,
             "name": "User Search for product \"Joggers\"",
@@ -421,8 +449,8 @@
           },
           {
             "result": {
-              "duration": 999900,
-              "status": "skipped"
+              "duration": 71955100,
+              "status": "passed"
             },
             "line": 11,
             "name": "Search Result page is displayed and the price is \"40\"",
@@ -458,9 +486,12 @@
         "keyword": "Background",
         "steps": [
           {
+            "output": [
+              "user navigated to URL https://www.myntra.com/"
+            ],
             "result": {
-              "duration": 1000300,
-              "status": "skipped"
+              "duration": 13160205800,
+              "status": "passed"
             },
             "line": 5,
             "name": "User navigated to the home application url",
@@ -472,13 +503,12 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-19T13:14:24.983Z",
+        "start_timestamp": "2022-12-17T14:05:10.503Z",
         "before": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 99\nCurrent browser version is 102.0.5005.115 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESHMUKH\u0027, ip: \u0027192.168.91.221\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.1\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00E99943+2595139]\n\tOrdinal0 [0x00E2C9F1+2148849]\n\tOrdinal0 [0x00D24528+1066280]\n\tOrdinal0 [0x00D442C3+1196739]\n\tOrdinal0 [0x00D3FE37+1179191]\n\tOrdinal0 [0x00D3D6F1+1169137]\n\tOrdinal0 [0x00D70530+1377584]\n\tOrdinal0 [0x00D7018A+1376650]\n\tOrdinal0 [0x00D6B806+1357830]\n\tOrdinal0 [0x00D46086+1204358]\n\tOrdinal0 [0x00D46F96+1208214]\n\tGetHandleVerifier [0x0103B232+1658114]\n\tGetHandleVerifier [0x010F312C+2411516]\n\tGetHandleVerifier [0x00F2F261+560433]\n\tGetHandleVerifier [0x00F2E366+556598]\n\tOrdinal0 [0x00E3286B+2173035]\n\tOrdinal0 [0x00E375F8+2192888]\n\tOrdinal0 [0x00E376E5+2193125]\n\tOrdinal0 [0x00E411FC+2232828]\n\tBaseThreadInitThunk [0x772FFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77967A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77967A4E+238]\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\r\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)\r\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)\r\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\r\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\r\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat FlipkartHealtCheck.core.WebDriverFactory.getWebDriverForBrowser(WebDriverFactory.java:20)\r\n\tat FlipkartHealtCheck.stepdefs.stepdefs.setUp(stepdefs.java:66)\r\n",
-              "duration": 1751155800,
-              "status": "failed"
+              "duration": 1818272500,
+              "status": "passed"
             },
             "match": {
               "location": "FlipkartHealtCheck.stepdefs.stepdefs.setUp(io.cucumber.java.Scenario)"
@@ -491,10 +521,12 @@
         "id": "e-commerce-project-web-site-health-check;user-is-able-to-open-the-browser--navigate-to-the-url-and-search-for-product-as-well-as-he-can-add-product-to-cart",
         "after": [
           {
+            "output": [
+              "Test case is passed, no screen shot captured"
+            ],
             "result": {
-              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)\" because \"scrnShot\" is null\r\n\tat FlipkartHealtCheck.stepdefs.stepdefs.takeScreenShot(stepdefs.java:89)\r\n",
-              "duration": 1000300,
-              "status": "failed"
+              "duration": 999400,
+              "status": "passed"
             },
             "match": {
               "location": "FlipkartHealtCheck.stepdefs.stepdefs.takeScreenShot(io.cucumber.java.Scenario)"
@@ -502,9 +534,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because \"FlipkartHealtCheck.core.WebDriverFactory.driver\" is null\r\n\tat FlipkartHealtCheck.core.WebDriverFactory.quitDriver(WebDriverFactory.java:51)\r\n\tat FlipkartHealtCheck.stepdefs.stepdefs.cleanup(stepdefs.java:82)\r\n",
-              "duration": 1997500,
-              "status": "failed"
+              "duration": 1169263900,
+              "status": "passed"
             },
             "match": {
               "location": "FlipkartHealtCheck.stepdefs.stepdefs.cleanup()"
@@ -515,8 +546,12 @@
         "keyword": "Scenario",
         "steps": [
           {
+            "output": [
+              "Product Searched: Tshirt"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 8783399000,
+              "status": "passed"
             },
             "line": 24,
             "name": "User Search for product \"Tshirt\"",
@@ -533,7 +568,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 481701900,
+              "status": "passed"
             },
             "line": 25,
             "name": "user clicked for Product",
@@ -543,8 +579,15 @@
             "keyword": "When "
           },
           {
+            "output": [
+              "List of windows found: 2",
+              "Windows handles: [CDwindow-DDFCC12214BEE73B01DFB37ACAC80A1A, CDwindow-1A34935A0B3A490857587303300955FF]",
+              "Switched to the new window/tab",
+              "Switched back to Original tab"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 12643318500,
+              "status": "passed"
             },
             "line": 26,
             "name": "prouct description displayed on tab",
@@ -580,8 +623,12 @@
         "keyword": "Background",
         "steps": [
           {
+            "output": [
+              "user navigated to URL https://www.myntra.com/"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 12163911200,
+              "status": "passed"
             },
             "line": 5,
             "name": "User navigated to the home application url",
@@ -593,13 +640,12 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-19T13:14:26.775Z",
+        "start_timestamp": "2022-12-17T14:05:48.584Z",
         "before": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 99\nCurrent browser version is 102.0.5005.115 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESHMUKH\u0027, ip: \u0027192.168.91.221\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.1\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00E99943+2595139]\n\tOrdinal0 [0x00E2C9F1+2148849]\n\tOrdinal0 [0x00D24528+1066280]\n\tOrdinal0 [0x00D442C3+1196739]\n\tOrdinal0 [0x00D3FE37+1179191]\n\tOrdinal0 [0x00D3D6F1+1169137]\n\tOrdinal0 [0x00D70530+1377584]\n\tOrdinal0 [0x00D7018A+1376650]\n\tOrdinal0 [0x00D6B806+1357830]\n\tOrdinal0 [0x00D46086+1204358]\n\tOrdinal0 [0x00D46F96+1208214]\n\tGetHandleVerifier [0x0103B232+1658114]\n\tGetHandleVerifier [0x010F312C+2411516]\n\tGetHandleVerifier [0x00F2F261+560433]\n\tGetHandleVerifier [0x00F2E366+556598]\n\tOrdinal0 [0x00E3286B+2173035]\n\tOrdinal0 [0x00E375F8+2192888]\n\tOrdinal0 [0x00E376E5+2193125]\n\tOrdinal0 [0x00E411FC+2232828]\n\tBaseThreadInitThunk [0x772FFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77967A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77967A4E+238]\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\r\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)\r\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)\r\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\r\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\r\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat FlipkartHealtCheck.core.WebDriverFactory.getWebDriverForBrowser(WebDriverFactory.java:20)\r\n\tat FlipkartHealtCheck.stepdefs.stepdefs.setUp(stepdefs.java:66)\r\n",
-              "duration": 1733113500,
-              "status": "failed"
+              "duration": 4063859900,
+              "status": "passed"
             },
             "match": {
               "location": "FlipkartHealtCheck.stepdefs.stepdefs.setUp(io.cucumber.java.Scenario)"
@@ -612,9 +658,12 @@
         "id": "e-commerce-project-web-site-health-check;user-is-able-to-open-browser-and-navigate-to-url-after-that-it-will-add-product-from-wishlist",
         "after": [
           {
+            "output": [
+              "Test case is passed, no screen shot captured"
+            ],
             "result": {
-              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)\" because \"scrnShot\" is null\r\n\tat FlipkartHealtCheck.stepdefs.stepdefs.takeScreenShot(stepdefs.java:89)\r\n",
-              "status": "failed"
+              "duration": 999000,
+              "status": "passed"
             },
             "match": {
               "location": "FlipkartHealtCheck.stepdefs.stepdefs.takeScreenShot(io.cucumber.java.Scenario)"
@@ -622,9 +671,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because \"FlipkartHealtCheck.core.WebDriverFactory.driver\" is null\r\n\tat FlipkartHealtCheck.core.WebDriverFactory.quitDriver(WebDriverFactory.java:51)\r\n\tat FlipkartHealtCheck.stepdefs.stepdefs.cleanup(stepdefs.java:82)\r\n",
-              "duration": 1000000,
-              "status": "failed"
+              "duration": 508385600,
+              "status": "passed"
             },
             "match": {
               "location": "FlipkartHealtCheck.stepdefs.stepdefs.cleanup()"
@@ -635,8 +683,12 @@
         "keyword": "Scenario",
         "steps": [
           {
+            "output": [
+              "user clicked on bag"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 6084358200,
+              "status": "passed"
             },
             "line": 32,
             "name": "user clicked on Bag",
@@ -646,8 +698,12 @@
             "keyword": "When "
           },
           {
+            "output": [
+              "product added from wishlist"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 6768588500,
+              "status": "passed"
             },
             "line": 33,
             "name": "product added from wishlist",
@@ -683,8 +739,12 @@
         "keyword": "Background",
         "steps": [
           {
+            "output": [
+              "user navigated to URL https://www.myntra.com/"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 12524106700,
+              "status": "passed"
             },
             "line": 5,
             "name": "User navigated to the home application url",
@@ -696,13 +756,12 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-19T13:14:28.541Z",
+        "start_timestamp": "2022-12-17T14:06:18.191Z",
         "before": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 99\nCurrent browser version is 102.0.5005.115 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESHMUKH\u0027, ip: \u0027192.168.91.221\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.1\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00E99943+2595139]\n\tOrdinal0 [0x00E2C9F1+2148849]\n\tOrdinal0 [0x00D24528+1066280]\n\tOrdinal0 [0x00D442C3+1196739]\n\tOrdinal0 [0x00D3FE37+1179191]\n\tOrdinal0 [0x00D3D6F1+1169137]\n\tOrdinal0 [0x00D70530+1377584]\n\tOrdinal0 [0x00D7018A+1376650]\n\tOrdinal0 [0x00D6B806+1357830]\n\tOrdinal0 [0x00D46086+1204358]\n\tOrdinal0 [0x00D46F96+1208214]\n\tGetHandleVerifier [0x0103B232+1658114]\n\tGetHandleVerifier [0x010F312C+2411516]\n\tGetHandleVerifier [0x00F2F261+560433]\n\tGetHandleVerifier [0x00F2E366+556598]\n\tOrdinal0 [0x00E3286B+2173035]\n\tOrdinal0 [0x00E375F8+2192888]\n\tOrdinal0 [0x00E376E5+2193125]\n\tOrdinal0 [0x00E411FC+2232828]\n\tBaseThreadInitThunk [0x772FFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77967A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77967A4E+238]\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\r\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)\r\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)\r\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\r\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\r\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat FlipkartHealtCheck.core.WebDriverFactory.getWebDriverForBrowser(WebDriverFactory.java:20)\r\n\tat FlipkartHealtCheck.stepdefs.stepdefs.setUp(stepdefs.java:66)\r\n",
-              "duration": 1962621300,
-              "status": "failed"
+              "duration": 1409097100,
+              "status": "passed"
             },
             "match": {
               "location": "FlipkartHealtCheck.stepdefs.stepdefs.setUp(io.cucumber.java.Scenario)"
@@ -715,10 +774,11 @@
         "id": "e-commerce-project-web-site-health-check;user-is-able-to-open-browser-and-navigate-to-url-after-that-he-will-filter-brand-and-navigate-for-selcetion",
         "after": [
           {
+            "output": [
+              "Test case is passed, no screen shot captured"
+            ],
             "result": {
-              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)\" because \"scrnShot\" is null\r\n\tat FlipkartHealtCheck.stepdefs.stepdefs.takeScreenShot(stepdefs.java:89)\r\n",
-              "duration": 999700,
-              "status": "failed"
+              "status": "passed"
             },
             "match": {
               "location": "FlipkartHealtCheck.stepdefs.stepdefs.takeScreenShot(io.cucumber.java.Scenario)"
@@ -726,9 +786,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because \"FlipkartHealtCheck.core.WebDriverFactory.driver\" is null\r\n\tat FlipkartHealtCheck.core.WebDriverFactory.quitDriver(WebDriverFactory.java:51)\r\n\tat FlipkartHealtCheck.stepdefs.stepdefs.cleanup(stepdefs.java:82)\r\n",
-              "duration": 998200,
-              "status": "failed"
+              "duration": 1055061100,
+              "status": "passed"
             },
             "match": {
               "location": "FlipkartHealtCheck.stepdefs.stepdefs.cleanup()"
@@ -739,9 +798,12 @@
         "keyword": "Scenario",
         "steps": [
           {
+            "output": [
+              "user clicked on desired brand"
+            ],
             "result": {
-              "duration": 999500,
-              "status": "skipped"
+              "duration": 8029391000,
+              "status": "passed"
             },
             "line": 38,
             "name": "user clicked on Brand tag",
@@ -751,8 +813,12 @@
             "keyword": "When "
           },
           {
+            "output": [
+              "user filtered gender"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 34979300,
+              "status": "passed"
             },
             "line": 39,
             "name": "User filters gender",
@@ -762,8 +828,12 @@
             "keyword": "And "
           },
           {
+            "output": [
+              "user selects category for product"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 267834800,
+              "status": "passed"
             },
             "line": 40,
             "name": "user selects choice from category",
